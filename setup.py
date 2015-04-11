@@ -33,6 +33,9 @@ setup(
 		"push_notifications/management",
 		"push_notifications/management/commands",
 	],
+	install_requires=[
+		'django-uuidfield>=0.5.0',
+	],
 	author=push_notifications.__author__,
 	author_email=push_notifications.__email__,
 	classifiers=CLASSIFIERS,
